@@ -44,9 +44,9 @@ NDiplomacy = {
 	ESTATE_DISLIKE_ALLIANCE_ON_VC = -0.1,
 	HEGEMONY_LOST_DAYS = 7300,
 	HEGEMONY_MONTHLY_PROGRESS = 0.5,
-	CHANGE_RIVAL_YEARS = 15,
+	CHANGE_RIVAL_YEARS = 15, --cara
 	CONDOTTIERI_MIN_DURATION = 18,					-- Minimum duration for Condottieri agreements that must be paid for in advance and that cannot be cancelled.
-	UNCONDITIONAL_SURRENDER_MONTHS = -1,				-- Months before unconditional surrender starts having an effect on Call for Peace. Set to negative values to disable feature.
+	UNCONDITIONAL_SURRENDER_MONTHS = -1, --moon		-- Months before unconditional surrender starts having an effect on Call for Peace. Set to negative values to disable feature.
 	SHAREMAP_PRESTIGE_TRANSFER_LOSE = 0,				-- Prestige transferred for the Request to Share Maps diplomatic action.
 	SHAREMAP_PRESTIGE_TRANSFER_GAIN = 0,				-- Prestige transferred for the Request to Share Maps diplomatic action.
 	TRADE_LEAGUE_MIN_PRESTIGE_OLD_LEADER = -50,		-- Minimum required prestige to stay leader of a Trade League.
@@ -68,7 +68,7 @@ NDiplomacy = {
 	DISHONORABLE_PEACE_MONTHS = 12,					-- See DISHONORABLE_PEACE_WARSCORE. Set to 0 to entirely disable the feature.
 	DISHONORABLE_PEACE_WARSCORE = -10,				-- If you have more than this amount of individual warscore, peacing out within DISHONORABLE_PEACE_MONTHS of war start counts as a dishonorable act and incurs a CALL_ALLY_DECLINE_PRESTIGE_PENALTY hit.
 
-	DAYS_TO_DECLARE_WAR = 30,						-- Days from start of game before you can DOW anyone
+	DAYS_TO_DECLARE_WAR = 5,	--cara				-- Days from start of game before you can DOW anyone
 
 	INCREASE_TRUST_COST = 10,						-- Cost in favors to increase trust
 	INCREASE_TRUST_AMOUNT = 5,						-- Amount of trust per increase
@@ -147,9 +147,9 @@ NDiplomacy = {
 	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	REQUEST_HEIR_TRUCE = 5,
 	REQUEST_HEIR_AE = 20,
-	WARNING_YEARS = 20,								-- Years before warning expire
+	WARNING_YEARS = 10, --cara						-- Years before warning expire
 	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
-	COALITION_YEARS = 1,							-- Years before coalition expire
+	COALITION_YEARS = 10, --cara ama çalışmıyor		-- Years before coalition expire
 	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
 	MONARCH_GOV_CHANGE_LEGITIMACY_PENALTY = 0.0,	-- Penalty(%) on the legitimacy when changing gov type to the monarchy
 	EXTEND_REGENCY_LEGITIMACY_PENALTY = 10,  		-- Penalty for extending a regency
@@ -161,7 +161,7 @@ NDiplomacy = {
 	JUSTIFY_TRADE_CONFLICT_ACTOR_LIMIT = 0.1,	-- How big share of the trade power needed on the actor to be able to justify a trade conflict
 	PRESTIGE_PENALTY_ON_DISCOVER_JTC = -5,
 	MIN_ASKED_TRADE_POWER = 10,					-- Minimum % of someone's trade power can be asked for with the diplomatic action
-	MAX_ASKED_TRADE_POWER = 50,					-- Maximum % of someone's trade power can be asked for with the diplomatic action
+	MAX_ASKED_TRADE_POWER = 100, --cara			-- Maximum % of someone's trade power can be asked for with the diplomatic action
 	MIN_PAPAL_INFLUENCE_TO_PREVENT_EXCOMMUNICATION = 50, -- Papal influence that prevents excommunication
 
 	HRE_VOTE_ENEMY = -200,
@@ -181,9 +181,9 @@ NDiplomacy = {
 	HRE_VOTE_CORE_CLAIM = -50,
 
 	COUNTERESPIONAGE_DISCOVER_CHANCE = 0.33,
-	COUNTERESPIONAGE_NETWORK_IMPACT = -0.50,
+	COUNTERESPIONAGE_NETWORK_IMPACT = -2, --cara
 	BUILD_SPY_DISCOVERED_PENALTY = -10.0,
-	BUILD_SPY_NETWORK_SPEED = 1.5,
+	BUILD_SPY_NETWORK_SPEED = 3, --cara
 	SPY_NETWORK_DECAY = 1,
 	SPY_NETWORK_SIEGE_EFFECT = 0.2,
 	SPY_NETWORK_AE_EFFECT = -0.1,
@@ -194,18 +194,18 @@ NDiplomacy = {
 	SPY_NETWORK_DISCOVER_WAR = 50,
 	SUPPORT_REBELS_EFFECT = 10,
 	SUPPORT_REBELS_MONEY_FACTOR = 0.5,
-	FABRICATE_CLAIM_COST = 20,
-	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.001,
+	FABRICATE_CLAIM_COST = 20, --cara
+	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.0, --cara
 	CLAIM_STATE_MODIFIER = 0.5,
-	JUSTIFY_TRADE_CONFLICT_COST = 10,
+	JUSTIFY_TRADE_CONFLICT_COST = 20, --cara
 	INFILTRATE_ADMINISTRATION_COST = 40,
 	SABOTAGE_REPUTATION_COST = 60,
-	STEAL_MAPS_COST = 40,
+	STEAL_MAPS_COST = 40, --cara
 	SUPPORT_REBELS_COST = 60,
 	SOW_DISCONTENT_COST = 80,
 	AGITATE_FOR_LIBERTY_COST = 90,
 	SABOTAGE_RECRUITMENT_COST = 80,
-	SLANDER_MERCHANTS_COST = 70,
+	SLANDER_MERCHANTS_COST = 90, --cara
 	CORRUPT_OFFICIALS_COST = 25,
 	INFILTRATE_ADMINISTRATION_DURATION = 60,
 	SABOTAGE_REPUTATION_DURATION = 1825, -- days
@@ -213,8 +213,8 @@ NDiplomacy = {
 	SUPPORT_REBELS_DURATION = 5, -- in years
 	SOW_DISCONTENT_DURATION = 1825, -- days
 	AGITATE_FOR_LIBERTY_DURATION = 60,
-	SABOTAGE_RECRUITMENT_DURATION = 60,
-	SLANDER_MERCHANTS_DURATION = 60,
+	SABOTAGE_RECRUITMENT_DURATION = 20, --cara
+	SLANDER_MERCHANTS_DURATION = 20, --cara
 
 	AE_OTHER_CONTINENT = 10,
 	AE_SAME_CULTURE = 0.5,
@@ -289,7 +289,7 @@ NDiplomacy = {
 	PEACE_COST_JOIN_HRE = 90, 							-- Max Peace cost for forcing country to join the empire
 	PEACE_COST_CONVERSION = 0.8,					-- scaled with countrysize for forced conversion in peace.
 	PEACE_COST_CONCEDE = 10, 						-- _DDEF_PEACE_COST_CONCEDE_ Base Peace cost for conceding defeat
-	PEACE_COST_GOLD_STEP = 5, 						-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 loan size gold of giver
+	PEACE_COST_GOLD_STEP = 4, 	--cara				-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 loan size gold of giver
 	PEACE_COST_GOLD_MAX = 5,						-- Maximum loans of gold that can be demanded from giver in peace.
 	PEACE_COST_ANNUL = 10, 							-- _DDEF_PEACE_COST_ANNUL_ Peace cost for annulment of treaties
 	PEACE_COST_CHANGE_GOVERNMENT = 50, 				-- _Peace cost for changing government form
@@ -298,7 +298,7 @@ NDiplomacy = {
 	PEACE_COST_INDEPENDANCE = 30, 					-- Peace cost for breaking free of union
 	PEACE_COST_ENFORCED_FLEET_BASING_RIGHTS = 25,   -- Peace cost for enforced fleet basing righs
 	PEACE_COST_ENFORCED_MILITARY_ACCESS = 15,       -- Peace cost for enforced military access
-	PEACE_COST_WAR_REPARATIONS = 10,				-- Peace cost for war reparations
+	PEACE_COST_WAR_REPARATIONS = 5,		--cara		-- Peace cost for war reparations
 	PEACE_COST_GIVE_UP_CLAIM = 20,					-- Peace cost for giving up all claims in a country
 	PEACE_COST_DISMANTLE_REVOLUTION = 100,
 	PEACE_COST_CHANGE_HRE_RELIGION = 100,
@@ -344,18 +344,18 @@ NDiplomacy = {
 	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
 
-	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
+	DIPLOMAT_SPEED = 30.0,		--cara					-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
-	MIN_RELATIONS_TO_ALLY = -200,						-- Alliances not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_ALLY = -200,	--moon			-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
 
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
 
-	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
-	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
+	INTEGRATE_UNION_MIN_YEARS = 25,		--cara			-- Number of years before a union can be integrated
+	INTEGRATE_VASSAL_MIN_YEARS = 5,		--cara		-- Number of years before a vassal can be integrated
 
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 60,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 12, --cara			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
 
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
@@ -511,18 +511,18 @@ NCountry = {
 	ELECTIVE_FOREIGN_MONARCH_MIN_BONUS = 0,		-- The minimum change that is applied to foreigns heirs in elective monarchy
 	ELECTIVE_FOREIGN_MONARCH_MAX_BONUS = 0,		-- The maximum change that is applied to foreigns heirs in elective monarchy
 	ABDICATE_LEGITIMACY_THRESHOLD = 0,
-	ABDICATE_AGE_THRESHOLD = 30,
-	ABDICATE_RULING_LENGTH_THRESHOLD = 0,
-	ABDICATE_LEGITIMACY_HIT = 0,
+	ABDICATE_AGE_THRESHOLD = 30, --cara
+	ABDICATE_RULING_LENGTH_THRESHOLD = 10, --cara
+	ABDICATE_LEGITIMACY_HIT = -10, --cara
 	ABDICATE_PRESTIGE_HIT = -25,  --moon man
 
 
-	DISINHERIT_PRESTIGE_HIT = -25,
+	DISINHERIT_PRESTIGE_HIT = -25, --cara
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
 	
-	NEW_HEIR_PRESTIGE_HIT = -20,
+	NEW_HEIR_PRESTIGE_HIT = -10, --moon
 	NEW_HEIR_PRESTIGE_THRESHOLD = 0,
-	NEW_HEIR_LEGITIMACY_HIT = -20,
+	NEW_HEIR_LEGITIMACY_HIT = -10, --cara
 	NEW_HEIR_LEGITIMACY_THRESHOLD = 90,
 	NEW_HEIR_AGE_RANDOM_FACTOR = 10,
 	NEW_HEIR_AGE_MIN_FACTOR = 1,
@@ -582,9 +582,9 @@ NCountry = {
 	ESTATE_CROWNLAND_FROM_DEV = 0.2,			-- How much crownland you gain from developing a province.
 
 	ESTATE_PRIVILEGE_ADMIN_COST = 0,			-- Cost of granting a privilege
-	ESTATE_PRIVILEGES_MAX_CONCURRENT = 4,		-- Max. number of privileges active at the same time
+	ESTATE_PRIVILEGES_MAX_CONCURRENT = 5, --cara -- Max. number of privileges active at the same time
 
-	ESTATE_AGENDA_DEFAULT_MAX_ACTIVE_DAYS = 7300, -- Default max amount of days an agenda can stay active
+	ESTATE_AGENDA_DEFAULT_MAX_ACTIVE_DAYS = 3650, --cara -- Default max amount of days an agenda can stay active
 	ESTATE_AGENDA_ABOUT_TO_EXPIRE_WARNING = 1095, -- How many days it should start warning for agenda about to expire
 
 	ESTATE_LOYALTY_INFLUENCE_ON_LIBERTY_DESIRE = -0.3, -- Estate loyalty influence on libarty desire of vassals (if it has vassal_liberty_affected_by_loyalty)
@@ -707,8 +707,8 @@ NCountry = {
 	BASE_POWER_INCREASE = 3,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
-	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
-	NAT_FOCUS_YEARS_RANK = 5,						-- how many years are removed from nat focus cooldown per gov rank above 1
+	NAT_FOCUS_YEARS = 10,			--cara				-- years before you can change focus again
+	NAT_FOCUS_YEARS_RANK = 0,		--moon				-- how many years are removed from nat focus cooldown per gov rank above 1
 	POWER_MAX = 999,								-- how much power can be stored at maximum.
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	CROWN_LANDS_ALERT_THRESHOLD = 30,
@@ -732,22 +732,22 @@ NCountry = {
 	PS_BUY_EXPLORER = 50,
 	PS_ASSAULT = 5,
 	PS_ARTILLERY_BARRAGE = 50,
-	PS_NAVAL_BARRAGE = 50,
+	PS_NAVAL_BARRAGE = 25, --cara
 	PS_ADD_TRIBAL_LAND = 100,
 	PS_ADD_TRIBAL_LAND_EXTRA_COST_PER_PROVINCE = 10,
-	PS_FORCE_MARCH = 2,
+	PS_FORCE_MARCH = 1, --cara
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 2.5,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
 	PS_MAKE_PROVINCE_CORE = 10,
-	PS_REDUCE_INFLATION = 75,
+	PS_REDUCE_INFLATION = 50, --cara
 	PS_PROMOTE_MERCANTILISM = 100,
-	PS_MOVE_CAPITAL = 200,
-	PS_MOVE_CAPITAL_EXTRA = 20,						-- Per 100 country development.
-	PS_MOVE_CAPITAL_DISTANCE = 10,					-- How many pixels distance per 1 Adm.
+	PS_MOVE_CAPITAL = 100, --moon
+	PS_MOVE_CAPITAL_EXTRA = 0,	--moon					-- Per 100 country development.
+	PS_MOVE_CAPITAL_DISTANCE = 0, --moon					-- How many pixels distance per 1 Adm.
 	PS_MOVE_CAPITAL_DISTANCE_CAP = 300,				-- How much this penalty is allowed to cost in Adm.
-	PS_MOVE_TRADE_PORT = 200,
-	PS_REPLACE_RIVAL = 100,
+	PS_MOVE_TRADE_PORT = 100, --cara
+	PS_REPLACE_RIVAL = 0, --moon
 	PS_SEIZE_COLONY = 25,
 	PS_BURN_COLONY = 5,
 	PS_ATTACK_NATIVES = 5,
@@ -777,9 +777,9 @@ NCountry = {
 	PS_ESTABLISH_SIBERIAN_FRONTIER = 20,
 
 
-	STRENGTHEN_GOVERNMENT_LEGITIMACY = 10,
+	STRENGTHEN_GOVERNMENT_LEGITIMACY = 15, --cara
 	STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 3,
-	STRENGTHEN_GOVERNMENT_HORDE_UNITY = 10,
+	STRENGTHEN_GOVERNMENT_HORDE_UNITY = 20, --cara
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
 	STRENGTHEN_GOVERNMENT_MERITOCRACY = 10,
 
@@ -804,7 +804,7 @@ NCountry = {
 
 	PROMOTE_MERCANTILISM_INCREASE = 1,
 
-	DISHONOURED_ALLIANCE_DURATION = 1800,
+	DISHONOURED_ALLIANCE_DURATION = 30, --cara
 
 	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = -25.0,		-- Prestige penalty for declining call for arms
 	CLAIM_THRONE_PRESTIGE_PENALTY = -20.0,			-- Prestige penalty when claiming throne
@@ -826,8 +826,8 @@ NCountry = {
 	CORE_LOSE = 50, 								-- how many years until a core is lost.
 	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
-	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
-	ABANDON_CORE_PRESTIGE = -10.0,					-- The cost of abandoning a core that some other country owns.
+	CORE_LOSE_PRESTIGE = 0.0, --cara				-- Prestige change when lost core
+	ABANDON_CORE_PRESTIGE = -5.0,	--cara			-- The cost of abandoning a core that some other country owns.
 	ABANDON_IDEAGROUP_REFUND = 0.10,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.05, 						-- _CDEF_NEIGHBOURBONUS_
 	NEIGHBOURBONUS_CAP = -0.75, 					-- _CDEF_NEIGHBOURBONUS_CAP_
@@ -862,7 +862,7 @@ NCountry = {
 	MONTHS_TO_CORE_MAXIMUM = 240,					-- Maximum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE_MINIMUM = 6,						-- Minimum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
-	MONTHS_TO_CHANGE_CULTURE = 10,					-- How many months it will take to change culture in a province, per development.
+	MONTHS_TO_CHANGE_CULTURE = 3,		--cara		-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.0,				-- Percentage of force limit
@@ -927,7 +927,7 @@ NCountry = {
 	SEND_ADDITIONAL_TROOPS_FRACTION = 2,			-- As share of target's yearly growth
 	DEMAND_ARTIFACTS_PRESTIGE = 5,
 	DEMAND_ADDITIONAL_TRIBUTE_FRACTION = 0.25,		-- As share of target's yearly income
-	PLACATE_RULERS_PRESTIGE = -20,
+	PLACATE_RULERS_PRESTIGE = -10, --cara
 	PLACATE_RULERS_LIBERTY = -10,
 	RELATIVE_ON_THRONE_LIBERTY = 10,
 	RELATIVE_ON_THRONE_NOT_REGENCY_LIBERTY = 25,
@@ -1118,7 +1118,7 @@ NEconomy = {
 	GOLD_MINE_SIZE_PRIMITIVES = 4,					-- Gold income for very slow techgroups
 	TRADE_POWER_HOME_BONUS = 0.1,
 	TRADE_POWER_HOME_BONUS_MAX = 1,
-	AUTONOMY_AT_DIPLO_ANNEX = 60,					-- Autonomy added when diplo-annexing
+	AUTONOMY_AT_DIPLO_ANNEX = 40,	--cara			-- Autonomy added when diplo-annexing
 	AUTONOMY_AT_CONQUEST = 50,						-- Autonomy added at conquest
 	AUTONOMY_AT_CONQUEST_CLAIM = 40,				-- Autonomy added at conquest if you have a claim
 	AUTONOMY_AT_CONQUEST_CORE = 0,					-- Autonomy added at conquest if you have a core
@@ -1188,8 +1188,8 @@ NEconomy = {
 	PIRATES_MONOPOLY_BONUS = 1,						-- Factor of monopolization of node added to privateer power efficiency.
 	TRADE_COMPANY_CONTROL_LIMIT = 0.6,
 	TRADE_COMPANY_DAYS_TO_SWAP_LEADER = 30,
-	TRADE_COMPANY_STRONG_LIMIT = 0.51,
-	TRADE_COMPANY_COOLDOWN = 60,
+	TRADE_COMPANY_STRONG_LIMIT = 0.50, --cara
+	TRADE_COMPANY_COOLDOWN = 12, --cara
 	TRADE_COMPANY_RELIGION_RESTRICTION = 0,			-- If we limit trade companies based on religion.
 	LARGE_COLONIAL_NATION_LIMIT = 10,
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.5,
@@ -1200,7 +1200,7 @@ NEconomy = {
 	CARAVAN_POWER_MIN = 2,
 	MAX_BUILDING_SLOTS = 12,						-- Maximum number of buildings slots, i.e. max buildings possible.
 	COT_BUILDING_SLOTS = 2,							-- Number of slots used by a Center of Trade.
-	COT_DOWNGRADE_PRESTIGE_COST = -10,				-- Cost in prestige to downgrade a Center of Trade.
+	COT_DOWNGRADE_PRESTIGE_COST = 0,	--moon		-- Cost in prestige to downgrade a Center of Trade.
 	MAX_LD_FOR_CONSTRUCT_IN_SUBJECT = 50,			-- Maximum liberty desire at which an overlord can recruit regiments and build ships in a subject's glorious lands.
 	CONSTRUCT_IN_SUBJECT_TIME_MULTIPLIER = 1.25,
 	BANK_LOAN_DURATION = 60,						-- Default bank loan duration in months
@@ -1213,14 +1213,14 @@ NEconomy = {
 },
 
 NMilitary = {
-	SLACKEN_AP_DROP = 0.05,
+	SLACKEN_AP_DROP = 0.10, --cara
 	SLACKEN_MANPOWER_INCREASE = 2.0,
 
 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5,
 	
 
 	ARMY_DRILL_YEARLY_DECAY = -1.0,					-- Loss from not Drilling
-	ARMY_DRILL_YEARLY_GAIN = 10.0,					-- Gain from Drilling
+	ARMY_DRILL_YEARLY_GAIN = 20.0, --cara			-- Gain from Drilling
 	ARMY_DRILL_MAX = 100.0,
 	ARMY_DRILL_MAX_MORALE = 0.5,
 	ARMY_DRILL_SKILL_MONTHS = 120,					-- The average number of months until you get a skill increase if drilling 100% of forcelimit. Set to 0 to disable.
@@ -1274,7 +1274,7 @@ NMilitary = {
 	UNLOAD_COST_FRIENDLY = 12,						-- cost to unload to friendly territory
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
-	GARRISON_SIZE = 1000, 							-- GARRISON_SIZE
+	GARRISON_SIZE = 2000, 	--cara					-- GARRISON_SIZE
 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3,				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
 	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
@@ -1302,18 +1302,18 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.5,							-- base fort cost
-	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,
-	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
-	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
-	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,
+	FORTRESS_COST = 0.35,	--moon test edicem		-- base fort cost
+	HEAVY_SHIP_COST = 50, 	--cara					-- _MDEF_HEAVY_SHIP_COST = 10,
+	LIGHT_SHIP_COST = 20, 	--cara					-- _MDEF_LIGHT_SHIP_COST = 10,
+	GALLEY_COST = 10, 		--cara					-- _MDEF_GALLEY_COST = 10,
+	TRANSPORT_COST = 1,		--cara					-- _MDEF_TRANSPORT_COST = 10,
 	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
 	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
 	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
-	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
+	HEAVY_SHIP_TIME = 600, 	--cara					-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 150, --cara					-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 90, 	--cara						-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 30, --cara						-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
@@ -1337,8 +1337,8 @@ NMilitary = {
 	NAVAL_SUPPLY_RANGE = 150, 						-- Supply range for ships.
 	REBEL_TRADITION_GAIN = 0.5, 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
 	NOMAD_LOOT_TRADITION = 0.01,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
-	NOMAD_PLAINS_SHOCK_BONUS = 0.25, 				--
-	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.25, 			--
+	NOMAD_PLAINS_SHOCK_BONUS = 0.15, 	--cara	    --
+	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.15, --cara	--
 	SUPPLYLIMIT_BASE_MULTIPLIER = 6.0, 				--
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
 	BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.4,	-- Multiplier for morale damage taken by backrow
@@ -1351,7 +1351,7 @@ NMilitary = {
 	LOW_MORALE_THRESHOLD = 0.50,					-- Under this percentage of the morale, the army will do a shattered retreat
 	UNIT_TYPE_CHANGE_MAX_MORALE = 0.51,				-- Changing a unit type will reduce morale to min(UNIT_TYPE_CHANGE_MAX_MORALE, current morale)
 	DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 0.4,		-- Amount of warscore per month since attacker/defender started getting the bonus for completing war goal
-	WARGOAL_MAX_BONUS = 25,
+	WARGOAL_MAX_BONUS = 40, --cara
 	DEFAULT_WARGOAL_WARSCORE_BONUS	= 5,			-- Warscore bonus
 	DEFAULT_WARGOAL_BATTLESCORE_BONUS = 3,		-- Battle score bonus from winning battles
 	SUPERIORITY_WARGOAL_WARSCORE_THRESHOLD	= 10,	-- Needed battle score for getting ticking war score for war goal superiority
@@ -1442,10 +1442,10 @@ NMilitary = {
 
 
 	-- flagship-related defines
-	FLAGSHIP_REQUIRED_NAVY_SIZE_IN_SAILORS = 1500,	-- The number of sailors employed in the navy required to unlock the flagship
+	FLAGSHIP_REQUIRED_NAVY_SIZE_IN_SAILORS = 1000, --cara	-- The number of sailors employed in the navy required to unlock the flagship
 	FLAGSHIP_COST_DUCATS = 100,						-- The cost in ducats of a flagship
 	FLAGSHIP_COST_SAILORS = 300,					-- The cost in sailors of a flagship
-	FLAGSHIP_BUILDTIME = 730,						-- Building time in days of a flagship
+	FLAGSHIP_BUILDTIME = 365,		--cara			-- Building time in days of a flagship
 	FLAGSHIP_MAX_MODIFICATION = 3,					-- Maximum number of modifications on a flagship
 	FLAGSHIP_MORALE_HIT_ON_DESTRUCTION = 1.0,		-- Morale hit when the flagship is destroyed
 
@@ -1456,7 +1456,7 @@ NMilitary = {
 	MERCENARY_COMPANY_HIRING_COST_MONTHS = 48,		-- Initial hiring cost in months of maintenance
 	MERCENARY_COMPANY_STARTING_MORALE = 0.5,		-- Starting morale
 	MERCENARY_COMPANY_MIN_REGIMENTS = 4,			-- Minimum regiments
-	MERCENARY_COMPANY_MAX_REGIMENTS = 60,			-- Maximum regiments
+	MERCENARY_COMPANY_MAX_REGIMENTS = 32,	--cara		-- Maximum regiments
 	MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 2.0,	-- Manpower reserve factor (multiplied by 1000 per regiment)
 	MERCENARY_COMPANY_MANPOWER_RECOVERY = 120,				-- How many months to recover mercenary manpower fully
 	MERCENARY_COMPANY_HIRED_MANPOWER_RECOVERY_MOD = 2.0,		-- How much to modify the length for manpower recovery if they are hired
@@ -2566,7 +2566,7 @@ NGovernment = {
 	GOVERNMENT_REFORM_HISTORIC_AUTONOMY = 0.25,
 	GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 50.0,
 	GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 50.0,
-	CENTRALIZE_STATE_ADM_COST = 50,
+	CENTRALIZE_STATE_ADM_COST = 25, --cara
 	EXPAND_INFRASTRUCTURE_ADM_COST = 50,
 	CENTRALIZE_STATE_STATE_COST_LIMIT = 10.0,
 	CENTRALIZE_STATE_REDUCTION = 0.0,
