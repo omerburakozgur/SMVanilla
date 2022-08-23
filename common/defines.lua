@@ -979,7 +979,7 @@ NCountry = {
 	NATIVE_UPRISING_CHANCE_PER_AGGRESSIVENESS = 1.0,
 	MIN_POPULATION_FOR_TRADEGOOD_ASSIGNMENT = 400,
 	DEBT_LIMIT_ADM = -100,							-- This is how far you can go into debt on ADM for actions that allow spending power you don't have.
-	DEBT_LIMIT_DIP = -999,							-- This is how far you can go into debt on DIP for actions that allow spending power you don't have.
+	DEBT_LIMIT_DIP = -100,							-- This is how far you can go into debt on DIP for actions that allow spending power you don't have.
 	DEBT_LIMIT_MIL = -100,							-- This is how far you can go into debt on MIL for actions that allow spending power you don't have.
 	MAX_FERVOR = 100.0,
 	BREAK_ALLIANCE_PRESTIGE_LOSS = 10.0,			-- This is the amount of Prestige you lose if someone declines your Break Alliance demand.
@@ -1274,8 +1274,8 @@ NMilitary = {
 	UNLOAD_COST_FRIENDLY = 12,						-- cost to unload to friendly territory
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
-	GARRISON_SIZE = 2000, 	--cara					-- GARRISON_SIZE
-	SIEGE_FORCE_NEEDED_MULTIPLIER = 3,				-- x times garrison to be able to siege.
+	GARRISON_SIZE = 3000, 	--cara					-- GARRISON_SIZE
+	SIEGE_FORCE_NEEDED_MULTIPLIER = 0.334, --moon				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
 	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
 	ASSAULT_WIDTH_LIMIT = 5,						-- how many times the garrison size that can effectively assault at the same time.
@@ -1288,7 +1288,7 @@ NMilitary = {
 	HEAVY_SHIP_SAILORS_COST = 200,					-- 1 = 1 men in cost.
 	LIGHT_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	GALLEY_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
-	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
+	TRANSPORT_SHIP_SAILORS_COST = 10,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
 	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
@@ -1302,7 +1302,7 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.35,	--moon test edicem		-- base fort cost
+	FORTRESS_COST = 0.167,	--moon test edicem		-- base fort cost
 	HEAVY_SHIP_COST = 50, 	--cara					-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 20, 	--cara					-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 10, 		--cara					-- _MDEF_GALLEY_COST = 10,

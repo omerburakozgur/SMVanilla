@@ -137,6 +137,18 @@ feudalism = {
 			}
 		}
 		modifier = {
+			factor = 0.50
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = europe
+				development = 10
+			}
+		}
+		modifier = {
 			factor = 0.1
 			scale = yes
 			potential = {
@@ -274,6 +286,12 @@ renaissance = {
 	bonus = {
 		development_cost = -0.05
 		build_cost = -0.05
+		reform_progress_growth = 0.25
+		#Enstitülerin tech costları gitti
+		#10 dev üzeri topraklarda biraz
+		#20 dev üzeri topraklarda güzel şekilde yayılıyorlar
+		#20 dev üstünde başkentine gelmesi 7-8 yıl sürüyor
+		#moon
 	}
 
 	trade_company_efficiency = 0.4
@@ -406,34 +424,32 @@ renaissance = {
 			
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.15
 			scale = yes
 			potential = {
-				continent = europe
+				
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_10
-				continent = europe
 				development = 10
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.20
 			scale = yes
 			potential = {
-				continent = europe
+				
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20
 				development = 20
-				continent = europe
 			}
 		}
 		modifier = {
 			factor = 0.1
 			scale = yes
 			potential = {
-				continent = europe
+				#moon
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_5_post_1500
@@ -719,6 +735,7 @@ new_world_i = {
 			}
 		}
 		
+		
 		#Port provinces in countries with colonial subjects
 		modifier = {
 			factor = 10
@@ -752,6 +769,29 @@ new_world_i = {
 						}
 					}
 				}
+			}
+		}
+
+		modifier = {
+			factor = 0.20
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.40 #moon
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
 			}
 		}
 		
@@ -954,6 +994,29 @@ printing_press = {
 				}
 			}
 		}
+
+		modifier = {
+			factor = 0.20
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.40
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+			}
+		}
 		
 		modifier = {
 			factor = 0.2
@@ -1009,10 +1072,10 @@ printing_press = {
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.40 #moon
 			scale = yes
 			potential = {
-				continent = europe
+				
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20_capital
@@ -1305,6 +1368,7 @@ global_trade = {
 			factor = 1.6 #Not Scaled
 			province_trade_power = 45
 		}
+		
 		modifier = {
 			factor = 0.4
 			scale = yes
@@ -1608,8 +1672,22 @@ manufactories = {
 				}
 			}
 		}
+
 		modifier = {
-			factor = 0.15
+			factor = 0.20 #moon
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = europe
+				development = 10
+			}
+		}
+
+		modifier = {
+			factor = 0.20 #moon
 			scale = yes
 			potential = {
 				NOT = {
@@ -2093,6 +2171,18 @@ enlightenment = {
 			}
 		}
 		modifier = {
+			factor = 0.50
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = europe
+				development = 10
+			}
+		}
+		modifier = {
 			factor = 0.2
 			scale = yes
 			potential = {
@@ -2478,6 +2568,18 @@ industrialization = {
 				any_friendly_coast_border_province = {
 					industrialization = 100
 				}
+			}
+		}
+		modifier = {
+			factor = 0.50
+			scale = yes
+			potential = {
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = europe
+				development = 10
 			}
 		}
 		modifier = {
