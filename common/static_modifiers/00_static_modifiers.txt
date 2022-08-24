@@ -93,6 +93,9 @@ city = {
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
 	allowed_num_of_manufactories = 1
+	local_development_cost = -0.1
+	#encourage development edict'i kaldırılıp tüm topraklara konuldu -moon
+	
 }
 
 port = {
@@ -132,7 +135,7 @@ tropical = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
-	local_development_cost = 0.1
+	#tropical no dev cost -moon
 	picture = "climate_tropical"
 }
 
@@ -149,7 +152,7 @@ arid = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
-	local_development_cost = 0.1
+	#arid no dev cost -moon
 	picture = "climate_arid"
 }
 

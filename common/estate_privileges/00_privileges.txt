@@ -8760,9 +8760,7 @@ estate_burghers_tropical_nation = {
 	influence = 0.1
 	is_valid = {
 		OR = {
-			has_estate_privilege = estate_burghers_tropical_nation
-			technology_group = chinese
-			technology_group = indian
+			always = no
 		}
 	}
 	can_select = {

@@ -21,16 +21,7 @@ castilian_civil_war = {
 
 
 	can_start = {
-		current_age = age_of_discovery
-		is_at_war = no
-		has_any_disaster = no
-		has_heir = yes
-		OR = {
-			has_regency = yes
-			NOT = { heir_claim = 80 }
-			has_female_heir = yes
-		}
-		is_lesser_in_union = no
+		always = no
 	}
 	
 	

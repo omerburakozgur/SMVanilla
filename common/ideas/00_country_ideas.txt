@@ -125,8 +125,8 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.20
-		heavy_ship_power = 0.15
+		naval_morale = 0.10 #moon
+		heavy_ship_power = 0.10 #moon
 	}
 
 	bonus = {
@@ -1185,7 +1185,7 @@ HAB_ideas = {
 	}
 	hofkriegsrat = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05 #moon
 	}
 }
 
