@@ -21,7 +21,16 @@ castilian_civil_war = {
 
 
 	can_start = {
-		always = no
+		current_age = age_of_discovery
+		is_at_war = no
+		has_any_disaster = no
+		has_heir = yes
+		OR = {
+			has_regency = yes
+			NOT = { heir_claim = 80 }
+			has_female_heir = yes
+		}
+		is_lesser_in_union = no
 	}
 	
 	
@@ -39,7 +48,7 @@ castilian_civil_war = {
 	progress = {
 		modifier = {
 			factor = 1
-			NOT = { legitimacy = 90 }
+			NOT = { legitimacy = 100 }
 		}
 		modifier = {
 			factor = 1
@@ -54,16 +63,16 @@ castilian_civil_war = {
 			NOT = { stability = 1 }
 		}
 		modifier = {
-			factor = 0.5
-			NOT = { ADM = 2 }
+			factor = 1
+			NOT = { ADM = 3 }
 		}		
 		modifier = {
-			factor = 0.5
-			NOT = { DIP = 2 }
+			factor = 1
+			NOT = { DIP = 3 }
 		}		
 		modifier = {
-			factor = 0.5
-			NOT = { MIL = 2 }
+			factor = 1
+			NOT = { MIL = 3 }
 		}	
 		modifier = {
 			factor = -1

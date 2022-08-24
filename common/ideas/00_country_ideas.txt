@@ -1016,7 +1016,7 @@ PRU_ideas = {
 
 BRA_ideas = {
 	start = {
-		fabricate_claims_cost= -0.2
+		infantry_power = 0.10
 		build_cost = -0.15
 	}
 	
@@ -1030,7 +1030,7 @@ BRA_ideas = {
 	free = yes		#will be added at load.
 	
 	northern_march = {
-		infantry_power = 0.10
+		improve_relation_modifier = 0.20
 	}
 	kammergericht = {
 		global_tax_modifier = 0.1
@@ -1043,14 +1043,12 @@ BRA_ideas = {
 	}
 	seat_of_the_old_emperors = {
 		diplomatic_reputation = 1
-		imperial_authority_value = 0.1
 	}
 	iron_tooth = {
-		global_unrest = -2
+		discipline = 0.05
 	}
 	margrave_council = {
-		burghers_loyalty_modifier = 0.05
-		nobles_loyalty_modifier = 0.05
+		global_manpower_modifier = 0.15
 	}
 }
 
@@ -6983,7 +6981,7 @@ SHL_ideas = {
 HES_ideas = {
 	start = {
 		global_tax_modifier = 0.1
-		diplomatic_reputation = 1
+		land_morale = 0.1
 	}
 	bonus = {
 		merc_maintenance_modifier = -0.15
@@ -6995,23 +6993,25 @@ HES_ideas = {
 	free = yes
 	
 	break_the_hessian_estates = {
-		stability_cost_modifier = -0.1
+		improve_relation_modifier = 0.20
 	}
 	marburg_university = {
 		idea_cost = -0.1
+	}
+	modernization_of_the_hessian_army = {
+		discipline = 0.05
+		
+	}
+	let_in_religious_emigrants = {
+		development_cost = -0.1
 	}
 	welcome_reformers = {
 		religious_unity = 0.25
 		church_power_modifier = 0.05
 	}
-	let_in_religious_emigrants = {
-		development_cost = -0.1
-	}
-	modernization_of_the_hessian_army = {
-		discipline = 0.05
-	}
 	hessian_mercenaries_idea = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.20
+		global_manpower_modifier = 0.10
 	}
 	hessian_economic_reforms = {
 		production_efficiency = 0.1
@@ -14815,40 +14815,41 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		diplomats = 1
-		land_forcelimit_modifier = 0.2
+		global_tax_modifier = 0.1
+		land_morale = 0.1
 	}
 	bonus = {
-		discipline = 0.05
+		merc_maintenance_modifier = -0.15
 	}
 	trigger = {
 		tag = WES
 	}
+	
 	free = yes
-
-	wes_jewish_rights = {
+	
+	break_the_hessian_estates = {
+		improve_relation_modifier = 0.20
+	}
+	marburg_university = {
 		idea_cost = -0.1
 	}
-	wes_westphalian_decentralisation  = {
-		state_maintenance_modifier = -0.1
-		development_cost = -0.05
+	modernization_of_the_hessian_army = {
+		discipline = 0.05
+		
 	}
-	wes_increased_conscription = {
-		global_manpower_modifier = 0.20
+	let_in_religious_emigrants = {
+		development_cost = -0.1
 	}
-	wes_administrative_assimilation_of_rheinlanders = {
-		num_accepted_cultures = 1
-		same_culture_advisor_cost = -0.25
+	welcome_reformers = {
+		religious_unity = 0.25
+		church_power_modifier = 0.05
 	}
-	wes_taxation = {
-		global_tax_modifier = 0.1
+	hessian_mercenaries_idea = {
+		land_forcelimit_modifier = 0.20
+		global_manpower_modifier = 0.10
 	}
-	wes_enlightenment = {
-		tolerance_heretic = 1
-		tolerance_heathen = 1
-	}
-	wes_cities_of_the_rhineland = {
-		global_prov_trade_power_modifier = 0.15
+	hessian_economic_reforms = {
+		production_efficiency = 0.1
 	}
 }
 
