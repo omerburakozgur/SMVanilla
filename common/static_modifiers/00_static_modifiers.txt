@@ -47,12 +47,15 @@ difficulty_very_hard_player = {
 # Handicap Modifiers for AI
 ##########################################################################
 difficulty_very_easy_ai = {
+	
 }
 
 difficulty_easy_ai = {
+	
 }
 
 difficulty_normal_ai = {
+	
 }
 
 difficulty_hard_ai = {
@@ -62,6 +65,7 @@ difficulty_hard_ai = {
 	interest = -1
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.15
+	
 }
 
 difficulty_very_hard_ai = {
@@ -81,7 +85,9 @@ difficulty_very_hard_ai = {
 	development_cost = -0.2
 	build_cost = -0.25
 	ae_impact = -0.33
+	global_autonomy = -0.15
 	missionary_maintenance_cost = -0.3
+
 }
 
 ##########################################################################
@@ -144,7 +150,7 @@ arctic = {
 	supply_limit_modifier = -0.4
 	local_hostile_attrition = 1
 	allowed_num_of_buildings = -1
-	local_development_cost = 0.5
+	local_development_cost = 0.1
 	picture = "climate_arctic"
 }
 
@@ -543,6 +549,9 @@ ai_nation = {
 	diplomats = 1	# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
 	free_leader_pool = 1	# ai needs to have enough pool for 1 general & 1 admiral
 	sailors_recovery_speed = 0.25
+	development_cost = -0.2
+	build_cost = -0.15
+	global_autonomy = -0.20
 }
 
 war_taxes = {
@@ -1252,7 +1261,7 @@ subject_nation = {
 }
 
 vassal_nation = {
-	development_cost = 0.25
+	development_cost = 0.15
 }
 
 primitive_nation = {

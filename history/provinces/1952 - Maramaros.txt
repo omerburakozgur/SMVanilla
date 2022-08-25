@@ -1,8 +1,8 @@
-#1952 - Máramaros
+#1952 - Mï¿½ramaros
 
 owner = HUN
 controller = HUN 
-culture = ruthenian
+culture = hungarian
 religion = orthodox
 capital = "Huszt"
 trade_goods = naval_supplies
@@ -29,7 +29,7 @@ discovered_by = ottoman
 1526.8.30 = {
 	owner = TRA
 	controller = TRA
-} # Battle of Mohács, the end of the independent Kingdom of Hungary
+} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 1551.7.19 = {
 	owner = HAB
 	controller = HAB

@@ -2,7 +2,7 @@
 
 owner = TRE
 controller = TRE
-culture = pontic_greek
+culture = armenian
 religion = orthodox
 capital = "Trapezous"
 trade_goods = naval_supplies
