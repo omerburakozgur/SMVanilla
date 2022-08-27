@@ -370,7 +370,7 @@ CAS_ideas = {
 
 NED_ideas = {
 	start = {
-		global_sailors_modifier = 0.25
+		discipline = 0.05
 		naval_forcelimit_modifier = 0.50
 	}
 	
@@ -380,8 +380,8 @@ NED_ideas = {
 
 	trigger = {
 		OR = {
-			tag = NED
 			tag = HOL
+			tag = NED
 		}
 	}
 	free = yes		#will be added at load.
@@ -394,17 +394,17 @@ NED_ideas = {
 		trade_range_modifier = 0.10
 	}
 	polders = {
-		development_cost = -0.1
+		land_morale = 0.1
 	}
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
-		allowed_marine_fraction = 0.25
+		global_sailors_modifier = 0.25
 	}
 	embrace_humanism = {
-		tolerance_heretic = 3
+		development_cost = -0.1
 	}
 	army_sappers = {
-		siege_ability = 0.10
+		tolerance_heretic = 3
 	}
 	platoon_fire = {
 		fire_damage = 0.1
@@ -1627,10 +1627,12 @@ ARA_ideas = {
 	}
 }
 
+
+
 MUG_ideas = {
 	start = {
 		core_creation = -0.25
-		cavalry_power = 0.20
+		infantry_power = 0.1
 	}
 	
 	bonus = {
@@ -1643,25 +1645,26 @@ MUG_ideas = {
 	free = yes
 	
 	mansabdari_system = {
-		discipline = 0.05
+		prestige = 1
 	}
 	control_of_the_ulema = {
-		global_unrest = -1
+		global_unrest = -2
 	}
 	mughal_ibadat_khana = {
 		idea_cost = -0.1
 	}
 	an_indian_padshah = {
 		free_mil_policy = 1
+		leader_land_fire = 1
 	}
 	zabt_system = {
-		global_tax_modifier = 0.1
+		stability_cost_modifier = -0.10
 	}
 	mughal_architecture = {
-		prestige = 1
+		discipline = 0.05
 	}
 	fatawa_e_alamgiri = {
-		stability_cost_modifier = -0.10
+		fire_damage = 0.1
 	}
 }
 
@@ -2073,6 +2076,7 @@ ITA_ideas = {
 	}
 	
 	bonus = {
+		discipline = 0.05
 		defensiveness = 0.20
 	}
 	

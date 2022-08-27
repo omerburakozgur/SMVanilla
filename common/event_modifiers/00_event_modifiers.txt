@@ -12512,3 +12512,7 @@ third_temple_country_modifier = {
 	missionaries = 1
 	religion = yes
 }
+
+eng_fertile_henry = {
+	 heir_chance = -1
+}

@@ -9,6 +9,7 @@ historical_friend = HUN
 historical_rival = TUR
 historical_rival = FRA
 national_focus = ADM
+elector = yes
 add_accepted_culture = slovene
 1395.8.29 = {
 	monarch = {
@@ -1066,7 +1067,7 @@ add_accepted_culture = slovene
 	}
 }
 
-#1690.1.1 = { leader = {	name = "von Mercy"             	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1734.1.1 } } # Removed /SWÖ
+#1690.1.1 = { leader = {	name = "von Mercy"             	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1734.1.1 } } # Removed /SWï¿½
 1690.1.1 = {
 	leader = {
 		name = "Ludwig"
@@ -1301,7 +1302,7 @@ add_accepted_culture = slovene
 	}
 }
 
-#1737.1.1 = { leader = {	name = "Charles de Lorraine"   	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1780.7.4 } } # Removed /SWÖ
+#1737.1.1 = { leader = {	name = "Charles de Lorraine"   	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1780.7.4 } } # Removed /SWï¿½
 1738.1.1 = {
 	leader = {
 		name = "Browne"
@@ -1327,7 +1328,7 @@ add_accepted_culture = slovene
 	queen = {
 		country_of_origin = LOR
 		name = "Francis"
-		dynasty = "de Vaudémont"
+		dynasty = "de Vaudï¿½mont"
 		birth_date = 1708.12.8
 		death_date = 1765.8.12
 		female = no
