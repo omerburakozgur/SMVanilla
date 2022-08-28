@@ -11,7 +11,7 @@ change_estate_land_share = {
 	share = 12
 }
 change_brahmins_or_church_land_share_effect = {
-	share = -5
+	share = -6
 }
 
 #Sultans of Bengal

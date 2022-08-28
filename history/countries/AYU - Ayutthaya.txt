@@ -5,6 +5,10 @@ religion = buddhism
 technology_group = chinese
 capital = 600 # Ayutthaya
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -1
+}
 
 1395.1.1 = {
 	monarch = {

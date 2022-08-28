@@ -1,7 +1,7 @@
 #1751 - Ceuta
 
-owner = SPA
-controller = SPA 
+owner = CAS
+controller = CAS 
 culture = moroccan
 religion = sunni
 capital = "Cebta"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 fort_15th = yes
-add_core = SPA
+add_core = CAS
 
 
 
@@ -21,14 +21,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
+1444.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+}
 #1415.8.21 = { controller = POR add_core = POR }
 1415.9.1 = { controller = SPA add_core = SPA owner = SPA capital = Ceuta }
 1500.1.1 = { religion = catholic }
-1640.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = POR
-} # Ceuta decides to become Spanish and not Portuguese
+ # Ceuta decides to become Spanish and not Portuguese
 

@@ -9,10 +9,14 @@ capital = 227 # Lisboa
 add_army_professionalism = 0.05
 national_focus = DIP
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -1
+}
 
 1385.1.1 = {
 	monarch = {
-		name = "João I"
+		name = "Joï¿½o I"
 		dynasty = "de Avis"
 		adm = 2
 		dip = 2
@@ -20,7 +24,7 @@ national_focus = DIP
 	}
 }
 
-1385.4.1 = { leader = {	name = "Nuno Álvares Pereira"	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1423.1.1 } }
+1385.4.1 = { leader = {	name = "Nuno ï¿½lvares Pereira"	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1423.1.1 } }
 
 1391.10.31 = {
 	heir = {
@@ -38,15 +42,15 @@ national_focus = DIP
 
 1415.4.1 = { leader = {	name = "Infantes"		type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1449.1.1 } }
 
-1417.1.1 = { leader = {	name = "João Gonçalves Zarco"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1437.12.31 } }
+1417.1.1 = { leader = {	name = "Joï¿½o Gonï¿½alves Zarco"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1437.12.31 } }
 
-1417.1.1 = { leader = {	name = "Tristão Vaz Teixeira"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1425.12.31 } }
+1417.1.1 = { leader = {	name = "Tristï¿½o Vaz Teixeira"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1425.12.31 } }
 
 1418.1.1 = { leader = {	name = "Bartolomeu Perestrelo"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1428.12.31 } }
 
 1426.1.1 = { leader = {	name = "Diogo de Silves"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1428.12.31 } }
 
-1432.1.1 = { leader = {	name = "Gonçalo Velho Cabral"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1432.12.31 } }
+1432.1.1 = { leader = {	name = "Gonï¿½alo Velho Cabral"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1432.12.31 } }
 
 1433.1.1 = {
 	monarch = {
@@ -73,9 +77,9 @@ national_focus = DIP
 	}
 }
 
-1433.1.1 = { leader = {	name = "Gonçalo Velho Cabral"	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1434.12.31 } }
+1433.1.1 = { leader = {	name = "Gonï¿½alo Velho Cabral"	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1434.12.31 } }
 
-1434.1.1 = { leader = {	name = "Afonso Gonçalves Baldaia" type = explorer	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1437.12.31 } }
+1434.1.1 = { leader = {	name = "Afonso Gonï¿½alves Baldaia" type = explorer	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1437.12.31 } }
 
 1435.1.1 = { leader = {	name = "Earl of Avranches"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1449.5.20 } }
 
@@ -135,9 +139,9 @@ national_focus = DIP
 	add_ruler_personality = expansionist_personality
 }
 
-#1441.1.1 = { leader = {	name = "Nuno Tristão"		type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1444.12.31 } }
+#1441.1.1 = { leader = {	name = "Nuno Tristï¿½o"		type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1444.12.31 } }
 
-#1444.1.1 = { leader = {	name = "Álvaro Fernandes"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1447.12.31 } }
+#1444.1.1 = { leader = {	name = "ï¿½lvaro Fernandes"	type = explorer	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1447.12.31 } }
 
 1450.1.1 = { decision = act_of_uniformity decision = blasphemy_act }
 
@@ -145,8 +149,8 @@ national_focus = DIP
 
 1455.3.3 = {
 	heir = {
-		name = "João"
-		monarch_name = "João II"
+		name = "Joï¿½o"
+		monarch_name = "Joï¿½o II"
 		dynasty = "de Avis"
 		birth_date = 1455.3.3
 		death_date = 1495.10.25
@@ -161,7 +165,7 @@ national_focus = DIP
 
 1460.1.1 = { leader = { name = "Pedro de Sintra"	type = explorer	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1463.1.1 } }
 
-1469.1.1 = { leader = {	name = "Fernando Pó"          	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1481.1.1 } }
+1469.1.1 = { leader = {	name = "Fernando Pï¿½"          	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1481.1.1 } }
 
 1471.1.1 = { leader = { name = "Rui de Sequeira"	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1475.1.1 } }
 
@@ -169,7 +173,7 @@ national_focus = DIP
 	queen = {
 		country_of_origin = CAS
 		name = "Joanna"
-		dynasty = "de Trastámara"
+		dynasty = "de Trastï¿½mara"
 		birth_date = 1462.2.21
 		death_date = 1530.2.12
 		female = yes
@@ -179,14 +183,14 @@ national_focus = DIP
 	}
 }
 
-1480.1.1 = { leader = {	name = "Diogo Cão"             	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1486.1.1 } }
+1480.1.1 = { leader = {	name = "Diogo Cï¿½o"             	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1486.1.1 } }
 
 1481.1.1 = { government = monarchy
 add_government_reform = autocracy_reform }
 
 1481.8.29 = {
 	monarch = {
-		name = "João II"
+		name = "Joï¿½o II"
 		dynasty = "de Avis"
 		birth_date = 1455.3.3
 		adm = 2
@@ -224,7 +228,7 @@ add_government_reform = autocracy_reform }
 
 1487.1.1 = { leader = {	name = "Bartolomeu Dias"       	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1500.5.29 } }
 
-1487.5.7 = { leader = {	name = "Pêro da Covilhã"       	type = conquistador	fire = 3	shock = 3	manuever = 6	siege = 0	death_date = 1530.1.1 } }
+1487.5.7 = { leader = {	name = "Pï¿½ro da Covilhï¿½"       	type = conquistador	fire = 3	shock = 3	manuever = 6	siege = 0	death_date = 1530.1.1 } }
 
 1495.10.17 = {
 	monarch = {
@@ -243,7 +247,7 @@ add_government_reform = autocracy_reform }
 	queen = {
 		country_of_origin = ARA
 		name = "Isabella"
-		dynasty = "de Trastámara"
+		dynasty = "de Trastï¿½mara"
 		birth_date = 1470.10.2
 		death_date = 1498.8.23
 		female = yes
@@ -255,9 +259,9 @@ add_government_reform = autocracy_reform }
 
 #1500.1.1 = { decision = colonial_expansion }
 
-1500.1.1 = { leader = { name = "Rui Lourenço Ravasco"	type = conquistador	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1506.1.1 } }
+1500.1.1 = { leader = { name = "Rui Lourenï¿½o Ravasco"	type = conquistador	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1506.1.1 } }
 
-1500.3.9 = { leader = {	name = "Pedro Álvares Cabral"  	type = explorer	fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 1502.1.1 } }
+1500.3.9 = { leader = {	name = "Pedro ï¿½lvares Cabral"  	type = explorer	fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 1502.1.1 } }
 
 1500.5.12 = { leader = { name = "Gaspar Corte-Real" 	type = explorer	fire = 3	shock = 3	manuever = 5	siege = 0	death_date = 1503.1.1 } }
 
@@ -267,7 +271,7 @@ add_government_reform = autocracy_reform }
 	queen = {
 		country_of_origin = ARA
 		name = "Maria"
-		dynasty = "de Trastámara"
+		dynasty = "de Trastï¿½mara"
 		birth_date = 1482.6.29
 		death_date = 1517.3.7
 		female = yes
@@ -283,12 +287,12 @@ add_government_reform = autocracy_reform }
 
 1502.1.1 = { leader = { name = "Gaspar de Lemos"	type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1504.1.1 } }
 
-1502.1.1 = { leader = { name = "Gonçalo Coelho"		type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1504.1.1 } }
+1502.1.1 = { leader = { name = "Gonï¿½alo Coelho"		type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1504.1.1 } }
 
 1502.6.7 = {
 	heir = {
-		name = "João"
-		monarch_name = "João III"
+		name = "Joï¿½o"
+		monarch_name = "Joï¿½o III"
 		dynasty = "de Avis"
 		birth_date = 1502.6.7
 		death_date = 1557.6.11
@@ -299,11 +303,11 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-#1503.1.1 = { leader = {	name = "Afonso de Albuquerque"	type = conquistador	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.16 } } # Removed /SWÖ
+#1503.1.1 = { leader = {	name = "Afonso de Albuquerque"	type = conquistador	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.16 } } # Removed /SWï¿½
 
 1503.1.1 = { leader = {	name = "Francisco de Almeida"	type = conquistador	fire = 4	shock = 5	manuever = 6	siege = 2	death_date = 1510.3.1 } }
 
-#1506.1.1 = { leader = { name = "Tristão da Cunha"  	type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1513.1.1 } } # Removed /SWÖ
+#1506.1.1 = { leader = { name = "Tristï¿½o da Cunha"  	type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1513.1.1 } } # Removed /SWï¿½
 
 1509.1.1 = { leader = {	name = "Caramuru"		type = conquistador	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1527.1.1 } }
 
@@ -323,7 +327,7 @@ add_government_reform = autocracy_reform }
 
 1521.12.17 = {
 	monarch = {
-		name = "João III"
+		name = "Joï¿½o III"
 		dynasty = "de Avis"
 		birth_date = 1502.6.7
 		adm = 1
@@ -354,8 +358,8 @@ add_government_reform = autocracy_reform }
 
 1554.1.20 = {
 	heir = {
-		name = "Sebastião"
-		monarch_name = "Sebastião I"
+		name = "Sebastiï¿½o"
+		monarch_name = "Sebastiï¿½o I"
 		dynasty = "de Avis"
 		birth_date = 1554.1.20
 		death_date = 1578.8.4
@@ -366,11 +370,11 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1556.1.1 = { leader = {	name = "Mem de Sá"             	type = conquistador	fire = 4	shock = 5	manuever = 5	siege = 2	death_date = 1560.1.1 } }
+1556.1.1 = { leader = {	name = "Mem de Sï¿½"             	type = conquistador	fire = 4	shock = 5	manuever = 5	siege = 2	death_date = 1560.1.1 } }
 
 1557.6.13 = {
 	monarch = {
-		name = "Sebastião I"
+		name = "Sebastiï¿½o I"
 		dynasty = "de Avis"
 		birth_date = 1554.1.20
 		adm = 2
@@ -404,7 +408,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1578.1.1 = { leader = {	name = "António, Prior do Crato"     	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
+1578.1.1 = { leader = {	name = "Antï¿½nio, Prior do Crato"     	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
 
 1578.8.6 = {
 	monarch = {
@@ -419,8 +423,8 @@ add_government_reform = autocracy_reform }
 
 1578.8.6 = {
 	heir = {
-		name = "António"
-		monarch_name = "António I"
+		name = "Antï¿½nio"
+		monarch_name = "Antï¿½nio I"
 		dynasty = "de Avis"
 		birth_date = 1531.1.1
 		death_date = 1595.8.26
@@ -428,19 +432,19 @@ add_government_reform = autocracy_reform }
 		adm = 4
 		dip = 3
 		mil = 4
-		leader = {	name = "António I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "Antï¿½nio I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 }
 
 1580.2.1 = {
 	monarch = {
-		name = "António I"
+		name = "Antï¿½nio I"
 		dynasty = "de Avis"
 		birth_date = 1531.1.1
 		adm = 4
 		dip = 3
 		mil = 4
-		leader = {	name = "António I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "Antï¿½nio I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 	queen = {
 		country_of_origin = POR
@@ -457,20 +461,20 @@ add_government_reform = autocracy_reform }
 
 1585.1.1 = { leader = { name = "Afonso de Castro"		type = admiral	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1607.6.3 } }
 
-1595.1.1 = { leader = {	name = "Pedro Fernandes Queiróz"	type = explorer	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1615.1.1 } }
+1595.1.1 = { leader = {	name = "Pedro Fernandes Queirï¿½z"	type = explorer	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1615.1.1 } }
 
-1602.1.1 = { leader = {	name = "António Fernandes"     	type = explorer	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1624.1.1 } }
+1602.1.1 = { leader = {	name = "Antï¿½nio Fernandes"     	type = explorer	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1624.1.1 } }
 
-1606.1.1 = { leader = {	name = "D. Álvaro de Meneses"   type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1620.1.1 } }
+1606.1.1 = { leader = {	name = "D. ï¿½lvaro de Meneses"   type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1620.1.1 } }
 
-1624.1.1 = { leader = {	name = "Nuno Álvares Botelho"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1650.1.1 } }
+1624.1.1 = { leader = {	name = "Nuno ï¿½lvares Botelho"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1650.1.1 } }
 
 1637.1.1 = { leader = {	name = "Pedro Teixeira"        	type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1640.1.1 } }
 
 1640.12.1 = {
 	monarch = {
-		name = "João IV"
-		dynasty = "de Bragança"
+		name = "Joï¿½o IV"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1604.3.19
 		adm = 3
 		dip = 5
@@ -493,7 +497,7 @@ add_government_reform = autocracy_reform }
 	heir = {
 		name = "Afonso"
 		monarch_name = "Afonso VI"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1643.8.21
 		death_date = 1683.9.12
 		claim = 95
@@ -503,14 +507,14 @@ add_government_reform = autocracy_reform }
 	}
 }
 		
-1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
+1655.1.1 = { leader = {	name = "ï¿½lvares Botelho"       	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
 
 1656.11.7 = { set_legacy_government = administrative_monarchy } 
 
 1656.11.7 = {
 	monarch = {
 		name = "Afonso VI"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1643.8.21
 		adm = 0
 		dip = 0
@@ -522,7 +526,7 @@ add_government_reform = autocracy_reform }
 	heir = {
 		name = "Pedro"
 		monarch_name = "Pedro II"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1648.4.26
 		death_date = 1706.12.9
 		claim = 95
@@ -551,7 +555,7 @@ add_government_reform = autocracy_reform }
 1667.11.24 = {
 	monarch = {
 		name = "Pedro II"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1648.4.26
 		adm = 5
 		dip = 3
@@ -588,9 +592,9 @@ add_government_reform = autocracy_reform }
 
 1689.10.22 = {
 	heir = {
-		name = "João"
-		monarch_name = "João V"
-		dynasty = "de Bragança"
+		name = "Joï¿½o"
+		monarch_name = "Joï¿½o V"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1689.10.22
 		death_date = 1750.7.31
 		claim = 95
@@ -600,15 +604,15 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1700.1.1 = { leader = {	name = "António Luís de Sousa"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1720.1.1 } }
+1700.1.1 = { leader = {	name = "Antï¿½nio Luï¿½s de Sousa"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1720.1.1 } }
 
 1706.12.11 = { government = monarchy
 add_government_reform = autocracy_reform }
 
 1706.12.11 = {
 	monarch = {
-		name = "João V"
-		dynasty = "de Bragança"
+		name = "Joï¿½o V"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1689.10.22
 		adm = 2
 		dip = 2
@@ -643,9 +647,9 @@ add_government_reform = autocracy_reform }
 
 1714.6.6 = {
 	heir = {
-		name = "José"
-		monarch_name = "José I"
-		dynasty = "de Bragança"
+		name = "Josï¿½"
+		monarch_name = "Josï¿½ I"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1714.6.6
 		death_date = 1777.2.24
 		claim = 95
@@ -661,8 +665,8 @@ add_government_reform = autocracy_reform }
 
 1750.8.2 = {
 	monarch = {
-		name = "José I"
-		dynasty = "de Bragança"
+		name = "Josï¿½ I"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1714.6.6
 		adm = 6
 		dip = 3
@@ -685,7 +689,7 @@ add_government_reform = autocracy_reform }
 	heir = {
 		name = "Maria"
 		monarch_name = "Maria I"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1734.12.17
 		death_date = 1816.3.20
 		claim = 95
@@ -701,7 +705,7 @@ add_government_reform = autocracy_reform }
 1777.2.23 = {
 	monarch = {
 		name = "Maria I"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1734.12.17
 		adm = 0
 		dip = 1
@@ -711,7 +715,7 @@ add_government_reform = autocracy_reform }
 	queen = {
 		country_of_origin = POR
 		name = "Pedro"
-		dynasty = "de Bragança"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1717.7.5
 		death_date = 1786.5.25
 		female = no
@@ -724,8 +728,8 @@ add_government_reform = autocracy_reform }
 1777.2.23 = {
 	heir = {
 		name = "Joao"
-		monarch_name = "João VI"
-		dynasty = "de Bragança"
+		monarch_name = "Joï¿½o VI"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1767.5.13
 		death_date = 1826.3.10
 		claim = 95
@@ -749,8 +753,8 @@ add_government_reform = autocracy_reform }
 
 1816.3.20 = {
 	monarch = {
-		name = "João VI"
-		dynasty = "de Bragança"
+		name = "Joï¿½o VI"
+		dynasty = "de Braganï¿½a"
 		birth_date = 1767.5.13
 		adm = 1
 		dip = 1

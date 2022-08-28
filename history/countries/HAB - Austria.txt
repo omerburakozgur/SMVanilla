@@ -11,6 +11,12 @@ historical_rival = FRA
 national_focus = ADM
 elector = yes
 add_accepted_culture = slovene
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -1
+}
+
 1395.8.29 = {
 	monarch = {
 		name = "Albrecht IV"

@@ -15,11 +15,7 @@ religious_school = hanafi_school
 
 change_estate_land_share = {
 	estate = estate_church
-	share = -10
-}
-change_estate_land_share = {
-	estate = estate_nobles
-	share = 10
+	share = -1
 }
 
 1444.10.1 = {

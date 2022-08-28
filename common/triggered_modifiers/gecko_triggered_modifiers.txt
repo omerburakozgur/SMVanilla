@@ -11,6 +11,7 @@ Minor = {
 				ai = no
 			}
 			NOT = { is_emperor = yes }
+			NOT = { has_reform = steppe_horde }
 
 		}
 	

@@ -9,11 +9,7 @@ capital = 50	# Berlin
 
 change_estate_land_share = {
 	estate = estate_church
-	share = -10
-}
-change_estate_land_share = {
-	estate = estate_burghers
-	share = 10
+	share = -1
 }
 
 1440.9.21 = {
@@ -27,7 +23,6 @@ change_estate_land_share = {
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = incorruptible_personality
-	add_heir_personality = inspiring_leader_personality
 	queen = {
 		country_of_origin = SAX
 		name = "Catherine"
@@ -39,18 +34,6 @@ change_estate_land_share = {
 		dip = 3
 		mil = 2
 	}
-	heir = {
-		name = "Albrecht Achilles"
-		monarch_name = "Albrecht III Achilles"
-		dynasty = "von Hohenzollern"
-		birth_date = 1414.11.9
-		death_date = 1486.3.11
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-	set_country_flag = albrecht_achilles_flag
 }
 
 1470.2.10 = {

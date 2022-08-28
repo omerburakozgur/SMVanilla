@@ -1124,7 +1124,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.20
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
@@ -15638,7 +15638,6 @@ LFA_ideas = {
 
 LIG_ideas = {
 	start = {
-		liberty_desire = 20
 		global_ship_cost = -0.1
 	}
 	bonus = {

@@ -5,6 +5,11 @@ religion = catholic
 primary_culture = neapolitan
 capital = 121 # Napoli
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -1
+}
+
 1399.1.1 = {
 	monarch = { 
 		name = "Louis II"
