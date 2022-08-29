@@ -1,8 +1,5 @@
 # No previous file for Metztitlan
 
-owner = OTO
-controller = OTO
-add_core = OTO
 is_city = yes
 culture = otomi
 religion = nahuatl

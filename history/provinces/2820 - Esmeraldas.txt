@@ -1,7 +1,6 @@
 # - Esmeraldas
 
-owner = QTO
-controller = QTO
+
 culture = cara
 religion = inti
 capital = "Esmeraldas"
@@ -11,7 +10,6 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 1
-add_core = QTO
 
 
 

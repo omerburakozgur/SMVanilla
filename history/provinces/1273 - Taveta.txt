@@ -1,5 +1,7 @@
 #1273 - Taveta
-
+owner = MLI
+controller = MLI
+add_core = MLI
 culture = bantu #thagiicu
 religion = shamanism #Fetishism
 trade_goods = unknown

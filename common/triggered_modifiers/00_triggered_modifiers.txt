@@ -308,8 +308,6 @@ catholic_rome = {
 		NOT = { tag = ROM }
 	}
 
-	papal_influence = -10
-	diplomatic_reputation = -1
 	#icon = 9
 }
 

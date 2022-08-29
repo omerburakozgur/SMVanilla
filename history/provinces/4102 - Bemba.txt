@@ -1,3 +1,6 @@
+owner = KZB
+controller = KZB
+add_core = KZB
 culture = bemba
 religion = shamanism #Fetishism
 trade_goods = unknown

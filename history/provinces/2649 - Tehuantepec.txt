@@ -1,9 +1,6 @@
 # No previous file for Tehuantepec
 
 culture = zapotek
-owner = ZAP
-controller = ZAP
-add_core = ZAP
 is_city = yes
 religion = nahuatl
 capital = "Tehuantepec"

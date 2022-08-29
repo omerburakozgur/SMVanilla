@@ -1,9 +1,6 @@
 # No previous file for Patzcuaro
 
 culture = purepecha
-owner = TAR
-controller = TAR
-add_core = TAR
 is_city = yes
 religion = nahuatl
 capital = "Tzintzuntzan"

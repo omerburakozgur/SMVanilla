@@ -1,9 +1,8 @@
 # No previous file for Malinalco
-
+owner = AZT
+controller = AZT
+add_core = AZT
 culture = matlatzinca
-owner = MAT
-controller = MAT
-add_core = MAT
 is_city = yes
 religion = nahuatl
 capital = "Malinalco"

@@ -1,8 +1,6 @@
 #817 - Cuenca
 
-owner = QTO
-controller = QTO
-add_core = QTO
+
 culture = cara
 
 

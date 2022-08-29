@@ -1,9 +1,6 @@
 # No previous file for Tziccoac
 
 culture = wastek
-owner = HST
-controller = HST
-add_core = HST
 is_city = yes
 religion = mesoamerican_religion
 capital = "Tziccoac"

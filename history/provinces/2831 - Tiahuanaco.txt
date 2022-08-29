@@ -1,8 +1,6 @@
 # - Tiahuanoco
 
-owner = PCJ
-controller = PCJ
-add_core = PCJ
+
 culture = aimara
 religion = inti
 capital = "Tiahuanoco"

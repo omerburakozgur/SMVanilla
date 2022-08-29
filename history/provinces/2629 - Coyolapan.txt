@@ -1,9 +1,6 @@
 # No previous file for Coyolapan
 
 culture = mixtec
-owner = MIX
-controller = MIX
-add_core = MIX
 is_city = yes
 religion = nahuatl
 capital = "Coyolapan"

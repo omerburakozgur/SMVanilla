@@ -1,8 +1,6 @@
 #802 - Chuquiabo
 
-owner = CLA
-controller = CLA
-add_core = CLA
+
 is_city = yes
 culture = aimara
 religion = inti

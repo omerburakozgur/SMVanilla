@@ -1,9 +1,8 @@
 # No previous file for Teloloapan
-
-culture = aztek
 owner = AZT
 controller = AZT
 add_core = AZT
+culture = aztek
 is_city = yes
 religion = nahuatl
 capital = "Teloloapan"

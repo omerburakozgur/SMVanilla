@@ -1,5 +1,7 @@
 #2801 - Medwa
-
+owner = WAD
+controller = WAD
+add_core = WAD
 culture = tunjur 
 religion = shamanism #Fetishism
 capital = "Medowa"

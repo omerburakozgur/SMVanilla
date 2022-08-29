@@ -1,9 +1,6 @@
 # No previous file for Yohualtepec
 
 culture = mixtec
-owner = COI
-controller = COI
-add_core = COI
 is_city = yes
 religion = nahuatl
 capital = "Yohualtepec"

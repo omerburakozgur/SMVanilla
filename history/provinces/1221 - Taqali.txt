@@ -1,5 +1,7 @@
 #1221 - Kordofan
-
+owner = WAD
+controller = WAD
+add_core = WAD
 culture = nubian
 religion = shamanism #Fetishism
 capital = "Al-Ubayyid"

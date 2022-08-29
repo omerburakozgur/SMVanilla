@@ -1,5 +1,7 @@
 #4050 - Luangwa
-
+owner = TBK
+controller = TBK
+add_core = TBK
 culture = bemba
 religion = shamanism #Fetishism
 trade_goods = unknown

@@ -1,7 +1,6 @@
 #841 - Guatemala
 
-owner = KIC 
-controller = KIC
+
 culture = highland_mayan 
 religion = mesoamerican_religion
 capital = "Tapachula" 
@@ -11,7 +10,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 1 
 is_city = yes
-add_core = KIC
 
 
 

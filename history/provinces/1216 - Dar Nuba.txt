@@ -1,5 +1,7 @@
 #1216 - Tegali
-
+owner = WAD
+controller = WAD
+add_core = WAD
 culture = nubian #Shilluk
 religion = shamanism #Fetishism
 capital = "Takala"

@@ -1,7 +1,6 @@
 #813 - Cajamarca
 
-owner = CJA
-controller = CJA
+
 culture = inca
 religion = inti
 capital = "Cajamarca"
@@ -11,7 +10,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = CJA
 
 
 

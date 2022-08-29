@@ -1,5 +1,7 @@
 #4059 - Shaga
-
+owner = BSG
+controller = BSG
+add_core = BSG
 culture = masaba
 religion = shamanism #Fetishism
 trade_goods = unknown

@@ -1,5 +1,7 @@
 #2800 - Kosti
-
+owner = ALO
+controller = ALO
+add_core = ALO
 culture = nubian
 religion = shamanism #Fetishism
 capital = "Kosti"

@@ -1,13 +1,12 @@
 # No previous file for Cutzamala
-
+owner = AZT
+controller = AZT
+add_core = AZT
 culture = matlatzinca
-owner = MAT
-controller = MAT
-add_core = MAT
 is_city = yes
 religion = nahuatl
 capital = "Cutzamala"
-trade_goods = sugar
+trade_goods = gold	
 hre = no
 base_tax = 3 
 base_production = 3
